@@ -5,6 +5,7 @@ public with sharing class TestClass1 {
   		{
   			
   			insert a;
+  			
   		}
   }
 }
