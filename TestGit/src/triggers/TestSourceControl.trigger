@@ -1,5 +1,5 @@
 trigger TestSourceControl on Account (before insert) 
 {
-	//Test My Comments
+	TestClass1.AccountInsert(trigger.new);
 
 }
