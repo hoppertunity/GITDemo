@@ -6,7 +6,8 @@ public with sharing class TestClass1 {
   			
   			
   			insert a;
-  			system.debug('test:' + a.id);
+  			system.debug('test:test' + a.id);
+  			
   			
   			
   		}
