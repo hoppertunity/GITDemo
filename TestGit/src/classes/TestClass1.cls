@@ -4,7 +4,7 @@ public with sharing class TestClass1
    	{
    		for(Account a:trgNew)
    		{
-   			a.fes = 'test'
+   			a.fes = 'test';
    		}
    	}
 }
