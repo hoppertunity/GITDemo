@@ -3,7 +3,7 @@ public with sharing class TestClass1 {
   {
   		for(Account a:triggerNew)
   		{
-  			a.
+  			
   			insert a;
   		}
   }
