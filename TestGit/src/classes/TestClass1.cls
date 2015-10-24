@@ -1,10 +1,11 @@
-public with sharing class TestClass1
-{
-   public static void doInsert(List<Account> trigNew)
-   	{
-   		for(Account a:trgNew)
-   		{
-   			a.fes = 'test';
-   		}
-   	}
+public with sharing class TestClass1 {
+  public static void AccountInsert(List<Account> triggerNew)
+  {
+  		for(Account a:triggerNew)
+  		{
+  			
+  			insert a;
+  			
+  		}
+  }
 }
