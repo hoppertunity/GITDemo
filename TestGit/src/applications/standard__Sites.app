@@ -3,4 +3,6 @@
     <defaultLandingTab>standard-home</defaultLandingTab>
     <tab>standard-Chatter</tab>
     <tab>standard-Sites</tab>
+    <tab>Merchandise__c</tab>
+    <tab>Warehouse__c</tab>
 </CustomApplication>

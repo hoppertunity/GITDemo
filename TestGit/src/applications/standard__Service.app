@@ -8,4 +8,6 @@
     <tab>standard-Solution</tab>
     <tab>standard-report</tab>
     <tab>standard-Dashboard</tab>
+    <tab>Merchandise__c</tab>
+    <tab>Warehouse__c</tab>
 </CustomApplication>

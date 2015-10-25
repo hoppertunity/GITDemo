@@ -6,4 +6,6 @@
     <tab>standard-ContentSearch</tab>
     <tab>standard-ContentSubscriptions</tab>
     <tab>standard-ContentFavorites</tab>
+    <tab>Merchandise__c</tab>
+    <tab>Warehouse__c</tab>
 </CustomApplication>

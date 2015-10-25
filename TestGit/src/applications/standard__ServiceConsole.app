@@ -123,7 +123,15 @@
     <tab>standard-Opportunity</tab>
     <tab>standard-Lead</tab>
     <tab>standard-Knowledge</tab>
+    <tab>Merchandise__c</tab>
+    <tab>Warehouse__c</tab>
     <workspaceMappings>
+        <mapping>
+            <tab>Merchandise__c</tab>
+        </mapping>
+        <mapping>
+            <tab>Warehouse__c</tab>
+        </mapping>
         <mapping>
             <tab>standard-Account</tab>
         </mapping>
