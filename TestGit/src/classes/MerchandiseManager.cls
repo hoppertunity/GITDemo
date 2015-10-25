@@ -10,4 +10,25 @@ global with sharing class MerchandiseManager
 		return result;
 	}
 
+	@HttpPost
+	global static String createMerchandise(String name, Decimal price, Double inventory, String Warehouse)
+	{
+		List<Warehouse__c> warehouses = [Select Id from Warehouse__c Where Name =: warehouse LIMIT 1];
+		if(warehouses.size() > 0)
+		{
+			Merchandise__c m = new Merchandise__c(Price__c = price, Quantity__c = inventory, Warehouse__c = warehouses[0].id);
+			insert m;
+			return m.id;
+		}
+		else
+		{
+			throw new RESTException('There is no warehouse with the specified name');
+			return null;
+		}
+	}
+	
+	class RESTException extends Exception{}
+	{
+	
+	}
 }
