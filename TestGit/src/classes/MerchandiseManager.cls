@@ -11,12 +11,12 @@ global with sharing class MerchandiseManager
 	}
 
 	@HttpPost
-	global static String createMerchandise(String name, Decimal price, Double inventory, String Warehouse)
+	global static String createMerchandise(String name, Decimal price, Double inventory, String warehouse)
 	{
 		List<Warehouse__c> warehouses = [Select Id from Warehouse__c Where Name =: warehouse LIMIT 1];
 		if(warehouses.size() > 0)
 		{
-			Merchandise__c m = new Merchandise__c(Price__c = price, Quantity__c = inventory, Warehouse__c = warehouses[0].id);
+			Merchandise__c m = new Merchandise__c(name = name, Price__c = price, Quantity__c = inventory, Warehouse__c = warehouses[0].id);
 			insert m;
 			return m.id;
 		}

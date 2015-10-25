@@ -61,6 +61,10 @@
         <visible>false</visible>
     </applicationVisibilities>
     <classAccesses>
+        <apexClass>MerchandiseManager</apexClass>
+        <enabled>false</enabled>
+    </classAccesses>
+    <classAccesses>
         <apexClass>TestClass1</apexClass>
         <enabled>false</enabled>
     </classAccesses>

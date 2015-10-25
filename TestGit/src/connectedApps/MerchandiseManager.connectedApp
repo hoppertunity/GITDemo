@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ConnectedApp xmlns="http://soap.sforce.com/2006/04/metadata">
+    <contactEmail>darrylhopper@hotmail.co.uk</contactEmail>
+    <label>MerchandiseManager</label>
+    <oauthConfig>
+        <callbackUrl>http://localhost</callbackUrl>
+        <consumerKey>3MVG9Rd3qC6oMalWQUWWGiPyGB5MrXDGFZ0AroSnM134M_8G861wThZoMf.guUnuivigM_brz9wGhqnVFk_dv</consumerKey>
+        <scopes>Full</scopes>
+    </oauthConfig>
+</ConnectedApp>
